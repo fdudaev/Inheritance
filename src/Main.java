@@ -1,6 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
+        Animal cat = new Animal("Cat", 1, 1, 1, 50, "asleep");
+
+        System.out.println(cat.getName() + " is " + cat.getWeight()+ "lb");
+
         Audi audi = new Audi();
         audi.steer(45);
         audi.accelerate(30);

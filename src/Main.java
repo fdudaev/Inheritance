@@ -4,6 +4,7 @@ public class Main {
         Human men = new Human("Bilal", "Farrukhi", 2, "White", "Tajik", 50, 1.2);
 
         men.getLastName();
+        men.getNationality();
         ///System.out.println(men.getFirstName()+ " " + men.getLastName()+ " " + men.getNationality());
 
         Animal cat = new Animal("Cat", 1, 1, 1, 50, "asleep");

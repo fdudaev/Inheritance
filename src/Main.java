@@ -5,6 +5,7 @@ public class Main {
 
         men.getLastName();
         men.getNationality();
+        men.getAge();
         ///System.out.println(men.getFirstName()+ " " + men.getLastName()+ " " + men.getNationality());
 
         Animal cat = new Animal("Cat", 1, 1, 1, 50, "asleep");

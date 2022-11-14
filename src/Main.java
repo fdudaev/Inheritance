@@ -2,8 +2,12 @@ public class Main {
     public static void main(String[] args) {
 
         Animal cat = new Animal("Cat", 1, 1, 1, 50, "asleep");
+        
+        Animal cat1 = new Animal("Cat1", 1, 1, 1, 50, "awake");
 
         System.out.println(cat.getName() + " is " + cat.getWeight()+ "lb");
+        
+        System.out.println(cat1.getName() + " is " + cat1.getWeight()+ "lb");
 
         Vehicle myCar = new Vehicle("Audi Q7", "3.2L");
 

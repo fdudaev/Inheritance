@@ -5,6 +5,10 @@ public class Main {
 
         System.out.println(cat.getName() + " is " + cat.getWeight()+ "lb");
 
+        Vehicle myCar = new Vehicle("Audi Q7", "3.2L");
+
+        System.out.println(myCar.getName());
+
         Audi audi = new Audi();
         audi.steer(45);
         audi.accelerate(30);

@@ -2,7 +2,7 @@ public class Audi extends Car {
     private int roadService;
 
     public Audi() {
-        super("Q7", "4WD", 5, 5, 6, false);
+        super("Q7", "4WD", 5, 5, 7, false);
         this.roadService = roadService;
     }
 

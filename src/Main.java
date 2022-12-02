@@ -1,18 +1,21 @@
 public class Main {
     public static void main(String[] args) {
 
+        Human men = new Human("Bilal", "Farrukhi", 2, "White", "Tajik", 50, 1.2);
+
+        men.getLastName();
+        men.getNationality();
+        men.getAge();
+        ///System.out.println(men.getFirstName()+ " " + men.getLastName()+ " " + men.getNationality());
+
         Animal cat = new Animal("Cat", 1, 1, 1, 50, "asleep");
-        
-        Animal cat1 = new Animal("Cat1", 1, 1, 1, 50, "awake");
 
         System.out.println(cat.getName() + " is " + cat.getWeight()+ "lb");
-        
-        System.out.println(cat1.getName() + " is " + cat1.getWeight()+ "lb");
 
         Vehicle myCar = new Vehicle("Audi Q7", "3.2L");
 
         System.out.println(myCar.getName());
-
+// review test
         Audi audi = new Audi();
         audi.steer(45);
         audi.accelerate(30);
